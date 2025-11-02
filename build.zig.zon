@@ -1,0 +1,17 @@
+.{
+    .name = .zrun,
+    .version = "0.0.0",
+    .fingerprint = 0x8af1e236bae3436e,
+    .minimum_zig_version = "0.15.2",
+    .dependencies = .{
+        .wayland = .{
+            .url = "git+https://github.com/ifreund/zig-wayland/?ref=HEAD#b2df7eda58badac138faea6fd78c7f08c8ef936a",
+            .hash = "wayland-0.5.0-dev-lQa1ki7XAQA_o7YhtvwJW3DvNwhYkIsH14tWSb08JJHU",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
