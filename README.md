@@ -2,6 +2,8 @@
 
 A fast and minimal application launcher for Wayland, written in Zig.
 
+<img width="3840" height="2114" alt="image" src="https://github.com/user-attachments/assets/bfa66c90-e6f1-4fb2-91ec-0f52487cb74a" />
+
 ## About
 
 This project is a learning exercise in Wayland protocol programming. Unlike many launchers that use high-level GUI toolkits, zrun interfaces directly with Wayland using:
