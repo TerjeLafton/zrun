@@ -2,6 +2,17 @@
 
 A fast and minimal application launcher for Wayland, written in Zig.
 
+## About
+
+This project is a learning exercise in Wayland protocol programming. Unlike many launchers that use high-level GUI toolkits, zrun interfaces directly with Wayland using:
+
+- **Wayland protocols** - Direct protocol implementation using wlr-layer-shell for overlay rendering
+- **Cairo** - 2D graphics rendering
+- **Pango** - Text layout and font rendering
+- **xkbcommon** - Keyboard input handling
+
+The goal is to understand how Wayland compositors work at a lower level while building a useful, fast application launcher.
+
 ## Requirements
 
 - Zig 0.15+
