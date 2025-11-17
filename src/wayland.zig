@@ -179,6 +179,7 @@ pub const App = struct {
         self.buffer = buffer;
 
         self.surface.attach(buffer, 0, 0);
+        self.surface.damage(0, 0, std.math.maxInt(i32), std.math.maxInt(i32));
         self.surface.commit();
     }
 
